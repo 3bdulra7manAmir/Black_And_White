@@ -1,0 +1,378 @@
+@font-face
+{
+    font-family: 'Tele Marines';
+    src: url(../Site_Custom_Font/Tele_Marines_Semi_Italic.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'Argonautica_Simple';
+	src: url(../Site_Custom_Font/Argonautica_Simple.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face
+{
+	font-family: 'Strike Fighter';
+	src: url(../Site_Custom_Font/Strike_Fighter_Semi_Italic.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+#B
+{
+	background-color: rgba(74,74,74,255);
+	margin: 0 0 0;
+}
+#Header a
+{
+  color: black;
+}
+
+a:hover
+{
+    color: currentColor;
+}
+
+.NAV1 a:hover
+{
+  color: white;
+  background-color: black;
+}
+#Header
+{
+	background-color: white;
+	height: 35px;
+    width: 100%;
+}
+
+#D1
+{
+  font-family: 'Argonautica_Simple';
+  font-weight: 100%;
+  font-size: 35px;
+  color: black;
+  float: left;
+
+  padding-top: 2px;
+  padding-left: 5px;
+
+}
+
+#D1 a:hover
+{
+  color: black;
+}
+
+#D2
+{
+	float: right;
+	padding-right: 5px;
+}
+
+#IMG1
+{
+  height: 25px;
+  padding-top: 4.5px;
+  border-radius: %;
+}
+
+#IMG2
+{
+  height: 25px;
+  padding-top: 4.5px;
+  border-radius: %;
+}
+
+.NAV1
+{
+	font-family:'Strike Fighter';
+  height: 35px;
+  padding-left: 4px;
+}
+
+.pad
+{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+  
+li
+{
+  float: left;
+}
+  
+li a, #dropbtn
+{
+  display: inline-block;
+  /*color: black;*/
+  text-align: center;
+  text-decoration: none;
+  height: 21.5px;
+  padding-top: 7px;
+  margin-top: 0;
+  padding-bottom: 7px;
+}
+  
+li #dropdown
+{
+  display: inline-block;
+}
+  
+#dropdown-content
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+  
+#dropdown-content a 
+{
+  color: black;
+  
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+  
+#dropdown-content a:hover
+{
+  background-color: black;
+  color: white;
+}
+  
+#dropdown:hover #dropdown-content
+{
+
+    display: block;
+}
+/*---------------------------*/
+.NAV1 a:hover
+{
+  color: white;
+  background-color: black;
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+#Header a
+{
+
+  background-color: white;
+}
+
+#Header a:hover
+{
+  background-color: black;
+  color: white;
+}
+
+/*code css dashboard */
+
+#drop1
+{
+  height: 27px;
+  width: 30px;
+}
+/*---------------------------*/
+#Cart-IMG a:hover
+{
+  color: black;
+  background-color: white;
+}
+
+.drop
+{
+  width: 20px;
+  height: 15px;
+}
+
+li .dropdown2
+{
+  padding-top: 3px;
+  display: inline-block;
+}
+
+.dropdown-content2
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+li .drop
+{   
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+
+.dropdown2:hover .dropdown-content2 
+{
+  display: block;
+  position: absolute;
+}
+ 
+/* Full-width input fields */
+input[type=text], input[type=password] , input[type=E-mail],input[type=telephone]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: fantasy;
+}
+
+/* Set a style for all buttons */
+button
+{
+  background-color:white;
+  color: black;
+  padding-: 10px 4px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  font-family: 'Strike Fighter';
+}
+
+.dropdown-content2 button:hover
+{
+  background-color: #f1f1f1;
+}
+  
+.drop:hover .dropdown-content2
+{
+  display: block;
+}
+
+button:hover
+{
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn
+{
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+span.psw 
+{
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal
+{
+  font-family: fantasy;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content
+{
+  font-family: Strike Fighter ;
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close
+{
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus
+{
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate
+{
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom
+{
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom
+{
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px)
+{
+span.psw
+{
+  display: block;
+  float: none;
+}
+
+.cancelbtn
+{
+     width: 100%;
+}
+
+/*last code dashboard*/
+
+/*session in header*/
+.Session
+{
+  background-color: white;s
+  position: absolute;
+
+} 

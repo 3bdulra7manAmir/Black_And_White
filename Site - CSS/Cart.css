@@ -1,0 +1,54 @@
+/* Put your css in here */
+#no{
+  text-align: center;
+}
+
+#all{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.left{
+ float: left; 
+ width: 3%;
+}
+
+#left-button{
+  height: 200px;
+}
+
+.internal{
+ width: 34%;
+ height: 100%;
+ border: 1px solid black;
+ display: inline-block;
+}
+#content{
+  float: center;
+}
+.center{
+ float: left; 
+ width: 94%;
+ height: 200px;
+ border: 1px solid black;
+ margin: px;
+ overflow: hidden;
+ /*will change this to hidden later to deny scolling to user*/
+ white-space: nowrap;
+}
+
+.right{
+ float: right; 
+ width: 2%;
+}
+
+#right-button{
+  height: 200px;
+}
+
+#cartimg
+{
+  padding-right: 650px;
+  padding-top: 50px;
+}

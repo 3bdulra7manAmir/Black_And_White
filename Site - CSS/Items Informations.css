@@ -1,0 +1,225 @@
+@font-face
+{
+    font-family: 'Argonautica Simple';
+    src: url(../Site_Custom_Font/Argonautica_Simple.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face
+{
+    font-family: 'Strike Fighter';
+    src: url(../Site_Custom_Font/Strike_Fighter_Semi_Italic.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face
+{
+    font-family: 'Tele Marines';
+    src: url(../Site_Custom_Font/Tele_Marines_Semi_Italic.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+#B
+{
+    background-image: url("../Site - Images/Item info.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+    margin: 0 0 0;
+    /* background-position: center; */
+    /* background-color: rgba(74,74,74,255); */
+}
+
+.CardParent
+{
+    width: 85%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card
+{
+    background-color: rgba(244,244,245,255);
+    padding: 3px;
+    margin: 20px auto;
+    border: 3px solid rgb(87, 87, 87);
+    transition: 300ms;
+    text-align: center;
+}
+
+.card:hover
+{
+    background-color: rgba(214, 214, 214, 0.7);
+    border: 3px solid black;
+}
+
+#HQT-Shirt
+{
+    font-family: 'Strike Fighter';
+}
+
+#Price-Div
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.image
+{
+    transition: transform .3s;
+}
+
+.image:hover
+{
+    transform: scale(1.3); 
+    /*border: 2px solid rgba(250,250,250,255);
+    border-radius: 9px;
+    */
+}
+
+div h2
+{
+    text-align: center
+}
+
+#price1
+{
+    /*
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 23px;
+    color: ;
+    */
+    text-align: center;
+}
+
+#price2
+{
+    /*
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 23px;
+    color: ;
+    */
+    text-align: center;
+    color: black;
+}
+
+#price3
+{
+    /*
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 23px;
+    color: ;
+    */
+    text-align: center;
+    color: black;
+}
+
+#price4
+{
+    /*
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 23px;
+    color: ;
+    */
+    text-align: center;
+    color: cyan;
+}
+
+#price5
+{
+    /*
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 23px;
+    color: ;
+    */
+    text-align: center;
+    color: lightcoral;
+}
+
+div .price del
+{
+    color: black;
+    margin-right: 20px;
+}
+
+.quantity
+{
+    margin-top: 6px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Strike Fighter';
+}
+
+.number
+{
+    margin-top: 6px;
+    width: 95px;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.size
+{
+    font-size: 23px;
+    margin: 5px;
+}
+
+.csize
+{
+        font-size: 23px;
+        
+}
+
+.sizeCheckbox
+{
+    text-align: center;
+}
+
+#Colors
+{
+    font-size: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Strike Fighter';
+}
+
+#Color1
+{
+      background-color: green;
+}
+
+.addtocard
+{
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding: 7px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    transition: 300ms;
+    border-radius: 30px;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+.addtocard:hover
+{
+    color: ;
+    background-color: #000;
+}

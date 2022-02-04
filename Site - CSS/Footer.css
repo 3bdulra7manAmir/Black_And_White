@@ -1,0 +1,63 @@
+#Payment-Methods
+{
+    font-family: 'Tele Marines';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    /*text-align: center;*/
+}
+
+#CopyRights
+{
+    font-family: 'Tele Marines';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#Payment-Methods-Word
+{
+    width: 282px;
+    height: 0px;
+    text-align: left;
+    font-size: 16px;
+}
+
+#Master-Card
+{
+    float: left;
+}
+
+#Master-Card-CSS
+{
+    float: left;
+}
+
+#Info-Div
+{
+    float: right;
+    text-decoration: none;
+}
+
+a
+{
+    color: white;
+}
+
+a:hover
+{
+  color: darkgray;
+}
+
+#Title
+{
+    padding-left: 55px;
+}
+

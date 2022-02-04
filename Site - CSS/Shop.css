@@ -1,0 +1,108 @@
+@font-face
+{
+  font-family: 'Argonautica Simple';
+  src: url(../Site_Custom_Font/Argonautica_Simple.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face
+{
+  font-family: 'Strike Fighter';
+  src: url(../Site_Custom_Font/Strike_Fighter_Semi_Italic.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face
+{
+    font-family: 'Tele Marines';
+    src: url(../Site_Custom_Font/Tele_Marines_Semi_Italic.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+#B
+{
+  background-image: url("../Site - Images/Logo2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  /*overflow: hidden;*/
+
+  margin: 0 0 0;
+  /* background-position: center; */
+  /* background-color: rgba(74,74,74,255); */
+}
+
+/* Men */
+
+#Men-Div
+{
+  
+  float: left;
+  padding-left: 200px;
+  /*padding-top: px;*/
+}
+
+#Men-IMG
+{
+  height: 550px;
+  width: 350px;
+  float: left;
+  /*margin: 0 0 0;*/
+}
+
+.Text-Center-Div
+{
+  text-align: center;
+}
+
+
+/* Women */
+
+#Women-Div
+{
+  float: right;
+  padding-right: 200px;
+  /*padding-top: 55px;*/
+  opacity: ;
+}
+
+#Women-IMG
+{
+  height: 550px;
+  width: 350px;
+  float: right;
+}
+
+#Men-Text
+{
+  font-family: 'Strike Fighter';
+  /*padding-left: 125px;*/
+}
+
+#WoMen-Text
+{
+  font-family: 'Strike Fighter';
+  /*padding-left: 125px;*/
+}
+
+.Text-Color
+{
+  color: white;
+}
+
+.card
+{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    opacity: 70%;
+}
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover
+  {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: 95%;
+  }

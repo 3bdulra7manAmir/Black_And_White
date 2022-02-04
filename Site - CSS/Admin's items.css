@@ -1,0 +1,40 @@
+#Body
+{
+	/*background-image: url("../Site - Images/Admins-items-Background.jpg");*/
+	color: black;
+	background-color: black;
+}
+
+#Search
+{
+	color: white;
+	text-align: center;
+}
+
+#Table
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-spacing: 15px;
+  color: white;
+  border-color: white;
+}
+
+table, th, td
+{
+  border: 1px solid;
+  padding: 5px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#Buttom-Div
+{
+	float: right;
+	padding-right: 25px;
+}

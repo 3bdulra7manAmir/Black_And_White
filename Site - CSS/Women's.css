@@ -1,0 +1,83 @@
+/* Put your css in here */
+.name{
+  color: white;
+}
+p{
+  float: left;
+}
+
+.all{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: black;
+}
+.left{
+ float: left; 
+ width: 3%;
+}
+
+
+
+.internal{
+ width: 15%;
+ height: 100%;
+ border: 1px solid black;
+ display: inline-block;
+}
+
+.center{
+ float: left; 
+ width: 94%;
+ height: 200px;
+ border: 1px solid black;
+ margin: px;
+ overflow: hidden;
+ /*will change this to hidden later to deny scolling to user*/
+ white-space: nowrap;
+}
+
+a
+{
+  color: white;
+}
+
+a:hover
+{
+  color: white;
+}
+
+.right
+{
+ float: right; 
+ width: 2%;
+}
+
+body
+{
+  background-color:black ;
+}
+
+.link
+{
+text-align: right;
+color: white;
+
+}
+
+#left-button1,#left-button2,#left-button3,#left-button4,#left-button5,#left-button6,#left-button7,#left-button8,#left-button9
+{
+  height: 185px;
+}
+
+#content1,#content2,#content3,#content4,#content5,#content6,#content7,#content8,#content9
+{
+  float: center;
+  background-color: black;
+  color: white;
+}
+#right-button1,#right-button2,#right-button3,#right-button4,#right-button5,#right-button6,#right-button7,#right-button8,#right-button9
+{
+  height: 185px;
+}

@@ -1,0 +1,56 @@
+
+#B
+{
+	
+	background-image: url("../Site - Images/Back_Ground.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	height: 100%;
+	
+	margin: 0 0 0;
+	/* background-position: center; */
+	/* background-color: rgba(74,74,74,255); */
+}
+
+.D3
+{
+	font-family: 'Tele Marines';
+    font-size: 23px;
+    padding-left: 3px;
+    padding-top: 10px;
+    text-align: center;
+    padding-right: 90px;
+}
+
+#Padding-id
+{
+    padding-left: 23px;
+}
+
+.SP3
+{
+	color: white;
+}
+
+#Payment_div
+{
+    text-align: right;
+}
+
+
+
+/*code css dashboard */
+
+
+#Welcome{
+    padding-left: 4
+}
+
+#Logo-Div
+{
+    float: right=350px;
+    padding-left: 350px;   
+
+   /* width: 10px;
+    height: 10px;*/
+}
